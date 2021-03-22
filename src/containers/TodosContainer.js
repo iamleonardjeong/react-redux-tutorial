@@ -11,6 +11,7 @@ const TodosContainer = ({
   toggle,
   remove,
 }) => {
+  console.log(input);
   return (
     <Todos
       input={input}
